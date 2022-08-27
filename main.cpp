@@ -6,7 +6,7 @@
  #define MAX_LEN 10 //名字最大长度
  #define STU_NUM 30 //最多学生数
  #define COURSE_NUM 6 //最多的科目数
- #define PATH "C:\\Users\\23914\Desktop\\双向链表学生管理系统\\student.txt"
+ #define PATH "C:\\Users\\23914\Desktop\\学生成绩管理系统\\student.txt"
  jmp_buf Jump_Buffer;
  #define try if(!setjmp(Jump_Buffer))
  #define catch else
